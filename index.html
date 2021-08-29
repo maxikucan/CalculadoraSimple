@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="img">
+        <img src="/img/fondo.jpg" alt="Calculos Matematicos">
+        <div class="container">
+            <div class="calcu">
+                <h1>Calculadora</h1>
+                <input type="text" class="num-1" id="num-1" placeholder="Ingrese el primer numero" maxlength="20"><br><br>
+                <input type="text" class="num-2" id="num-2" placeholder="Ingrese el segundo numero" maxlength="20"><br><br>
+                <button class="suma" id="suma">Sumar (+)</button>
+                <button class="resta" id="resta">Restar (-)</button>
+                <button class="multi" id="multi">Multiplicar (*)</button>
+                <button class="dividir" id="dividir">Dividir (/)</button><br>
+                <p>Resultado: <input type="text" class="resultado" id="resultado" readonly></p>
+                <button class="clear" id="clear">Limpiar</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
-</html>
+</html> 
